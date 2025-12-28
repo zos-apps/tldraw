@@ -6,7 +6,7 @@ interface TldrawProps {
 
 const Tldraw: React.FC<TldrawProps> = ({ onClose }) => {
   return (
-    <div className="h-full w-full bg-white">
+    <div className="h-full flex flex-col bg-white text-gray-900">
       <iframe
         src="https://www.tldraw.com/"
         className="w-full h-full border-0"

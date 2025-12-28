@@ -21,7 +21,22 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Collaborative whiteboard for drawing and diagramming.",
+    "help": [
+      "Select tool from sidebar",
+      "Draw on canvas",
+      "Share to collaborate"
+    ],
+    "docs": "https://zos-apps.github.io/tldraw",
+    "site": "https://github.com/zos-apps/tldraw",
+    "features": [
+      "Drawing tools",
+      "Shapes",
+      "Text",
+      "Collaboration",
+      "Export"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +69,13 @@
     "tldraw",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
