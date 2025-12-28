@@ -1,50 +1,55 @@
 # 🖌️ tldraw
 
-A tiny little drawing app
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/tldraw/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/tldraw)
 
-## Category
-`creative`
+> A tiny little drawing app
+
+**[Documentation](https://zos-apps.github.io/tldraw)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/tldraw
-# or
-pnpm add @anthropic/tldraw
+npm install github:zos-apps/tldraw
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import App from '@anthropic/tldraw';
+import tldraw from '@zos-apps/tldraw';
 
-function MyComponent() {
-  return <App onClose={() => console.log('closed')} />;
+function App() {
+  return <tldraw />;
 }
 ```
 
-## Development
+## Features
 
-```bash
-# Install dependencies
-pnpm install
+- Native zOS window integration
+- Dark mode support
 
-# Build
-pnpm build
+- Context menu actions
+- Menu bar integration
 
-# Watch mode
-pnpm dev
-```
+## Category
 
-## zOS Integration
+**Creative**
 
-This app is designed to run within zOS, a web-based operating system. It follows the zOS app specification with:
+## Permissions
 
-- Standalone React component
-- TypeScript support
-- Tailwind CSS styling
-- Window management integration
+- `storage.local`
+- `network`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/tldraw)
+- [GitHub Repository](https://github.com/zos-apps/tldraw)
+- [Report Issues](https://github.com/zos-apps/tldraw/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)
