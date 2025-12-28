@@ -36,7 +36,25 @@
       "Text",
       "Collaboration",
       "Export"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/tldraw"
+    },
+    "featured": true,
+    "tags": [
+      "utility",
+      "tldraw"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/tldraw/issues",
+    "changelog": "https://github.com/zos-apps/tldraw/releases"
   },
   "scripts": {
     "build": "tsup",
