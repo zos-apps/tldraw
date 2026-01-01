@@ -1,10 +1,10 @@
-import React from 'react';
+
 
 interface TldrawProps {
   onClose: () => void;
 }
 
-const Tldraw: React.FC<TldrawProps> = ({ onClose }) => {
+const Tldraw: React.FC<TldrawProps> = ({ onClose: _onClose }) => {
   return (
     <div className="h-full flex flex-col bg-white text-gray-900">
       <iframe
